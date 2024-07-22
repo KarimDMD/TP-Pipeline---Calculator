@@ -1,14 +1,14 @@
-import React, { useState } from "react";
-import "./App.css";
+import React, { useState } from 'react';
+import './App.css';
 
 const App = () => {
-  const [result, setResult] = useState("");
+  const [result, setResult] = useState('');
 
   const handleclick = (e) => {
     setResult(result.concat(e.target.name));
   };
   const clear = () => {
-    setResult("");
+    setResult('');
   };
 
   const backspace = () => {
