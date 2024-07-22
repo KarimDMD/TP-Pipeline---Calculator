@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import App from "./App";
 
-test("Clear button resets the display", () => {
+test("Clear button", () => {
   render(<App />);
 
   fireEvent.click(screen.getByText("1"));
@@ -14,7 +14,7 @@ test("Clear button resets the display", () => {
   expect(screen.getByRole("textbox").value).toBe("");
 });
 
-test("Calculate button computes the correct result", () => {
+test("Equal button", () => {
   render(<App />);
 
   fireEvent.click(screen.getByText("7"));
@@ -26,4 +26,18 @@ test("Calculate button computes the correct result", () => {
   fireEvent.click(screen.getByText("="));
 
   expect(screen.getByRole("textbox").value).toBe("12");
+});
+
+test("Equal button with error", () => {
+  render(<App />);
+
+  fireEvent.click(screen.getByText("8"));
+  fireEvent.click(screen.getByText("+"));
+  fireEvent.click(screen.getByText("5"));
+
+  expect(screen.getByRole("textbox").value).toBe("8+5");
+
+  fireEvent.click(screen.getByText("="));
+
+  expect(screen.getByRole("textbox").value).toBe("11");
 });
