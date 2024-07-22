@@ -27,17 +27,3 @@ test("Equal button", () => {
 
   expect(screen.getByRole("textbox").value).toBe("12");
 });
-
-test("Equal button with error", () => {
-  render(<App />);
-
-  fireEvent.click(screen.getByText("8"));
-  fireEvent.click(screen.getByText("+"));
-  fireEvent.click(screen.getByText("5"));
-
-  expect(screen.getByRole("textbox").value).toBe("8+5");
-
-  fireEvent.click(screen.getByText("="));
-
-  expect(screen.getByRole("textbox").value).toBe("11");
-});
