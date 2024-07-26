@@ -87,7 +87,7 @@ const App = () => {
             C
           </button>
           <button className="highlight" name="/" onClick={handleclick}>
-            &divide;
+            /
           </button>
           <button name="7" onClick={handleclick}>
             7
@@ -99,7 +99,7 @@ const App = () => {
             9
           </button>
           <button className="highlight" name="*" onClick={handleclick}>
-            &times;
+            *
           </button>
           <button name="4" onClick={handleclick}>
             4
@@ -111,7 +111,7 @@ const App = () => {
             6
           </button>
           <button className="highlight" name="-" onClick={handleclick}>
-            &ndash;
+            -
           </button>
           <button name="1" onClick={handleclick}>
             1

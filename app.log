@@ -1,21 +1,36 @@
-{"timestamp":"2024-07-26T13:04:44.836Z","action":"clear","ip":"::1"}
-{"timestamp":"2024-07-26T13:04:48.358Z","action":"button_click","target":"1","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-{"timestamp":"2024-07-26T13:04:48.716Z","action":"button_click","target":"+","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-{"timestamp":"2024-07-26T13:04:49.374Z","action":"button_click","target":"2","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-{"timestamp":"2024-07-26T13:04:49.941Z","action":"calculate","expression":"1+2","result":"3","ip":"::1"}
-{"timestamp":"2024-07-26T13:04:50.988Z","action":"clear","ip":"::1"}
-{"timestamp":"2024-07-26T13:04:51.691Z","action":"button_click","target":"9","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-{"timestamp":"2024-07-26T13:04:52.048Z","action":"button_click","target":"*","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-{"timestamp":"2024-07-26T13:04:52.461Z","action":"button_click","target":"6","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-{"timestamp":"2024-07-26T13:04:53.127Z","action":"button_click","target":"+","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-{"timestamp":"2024-07-26T13:04:53.478Z","action":"button_click","target":"3","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-{"timestamp":"2024-07-26T13:04:53.928Z","action":"calculate","expression":"9*6+3","result":"57","ip":"::1"}
-{"timestamp":"2024-07-26T13:04:55.928Z","action":"clear","ip":"::1"}
-{"timestamp":"2024-07-26T13:04:56.458Z","action":"button_click","target":"1","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-{"timestamp":"2024-07-26T13:04:56.846Z","action":"button_click","target":"+","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-{"timestamp":"2024-07-26T13:04:57.313Z","action":"button_click","target":"2","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-{"timestamp":"2024-07-26T13:04:57.862Z","action":"calculate","expression":"1+2","result":"3","ip":"::1"}
-{"timestamp":"2024-07-26T13:13:23.671Z","action":"button_click","target":"8","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"}
-{"timestamp":"2024-07-26T13:13:24.889Z","action":"button_click","target":"-","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"}
-{"timestamp":"2024-07-26T13:13:25.641Z","action":"button_click","target":"6","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"}
-{"timestamp":"2024-07-26T13:13:27.317Z","action":"calculate","expression":"8-6","result":"2","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:34.276Z","action":"button_click","target":"1","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:34.702Z","action":"button_click","target":"+","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:35.223Z","action":"button_click","target":"1","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:35.750Z","action":"calculate","expression":"1+1","result":"2","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:37.244Z","action":"clear","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:37.883Z","action":"button_click","target":"9","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:38.109Z","action":"button_click","target":"8","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:38.328Z","action":"button_click","target":"7","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:38.713Z","action":"backspace","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:39.612Z","action":"button_click","target":"8","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:40.275Z","action":"button_click","target":"*","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:40.656Z","action":"button_click","target":"6","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:41.199Z","action":"calculate","expression":"988*6","result":"5928","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:42.325Z","action":"backspace","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:42.771Z","action":"backspace","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:42.967Z","action":"backspace","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:43.366Z","action":"backspace","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:43.822Z","action":"button_click","target":"9","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:44.341Z","action":"button_click","target":"-","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:44.672Z","action":"button_click","target":"6","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:45.081Z","action":"calculate","expression":"9-6","result":"3","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:46.194Z","action":"button_click","target":"-","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:46.500Z","action":"button_click","target":"6","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:46.839Z","action":"calculate","expression":"3-6","result":"-3","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:47.899Z","action":"button_click","target":"+","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:48.278Z","action":"button_click","target":"5","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:48.602Z","action":"calculate","expression":"-3+5","result":"2","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:49.889Z","action":"clear","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:51.148Z","action":"button_click","target":"1","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:51.415Z","action":"button_click","target":"0","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:51.699Z","action":"button_click","target":"2","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:52.739Z","action":"calculate","expression":"102","result":"102","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:54.729Z","action":"button_click","target":"/","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:55.233Z","action":"button_click","target":"9","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T21:13:55.782Z","action":"calculate","expression":"102/9","result":"11.333333333333334","ip":"::1"}
+{"timestamp":"2024-07-26T21:13:57.141Z","action":"clear","ip":"::1"}
