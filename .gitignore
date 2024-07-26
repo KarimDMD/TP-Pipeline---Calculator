@@ -25,4 +25,3 @@ yarn-error.log*
 /elasticsearch-8.14.3
 /kibana-8.14.3
 /logstash-8.14.3
-logstash.conf

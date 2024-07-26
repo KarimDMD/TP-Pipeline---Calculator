@@ -27,6 +27,39 @@ app.post('/log', (req, res) => {
   });
 });
 
+app.post('/log/clear', (req, res) => {
+  const logEntry = req.body;
+  const logEntryJson = JSON.stringify({ ...logEntry, action: 'clear' }) + '\n';
+  fs.appendFile(logFilePath, logEntryJson, (err) => {
+    if (err) {
+      return res.status(500).json({ error: 'Failed to write log' });
+    }
+    res.status(200).json({ message: 'Clear log written successfully' });
+  });
+});
+
+app.post('/log/backspace', (req, res) => {
+  const logEntry = req.body;
+  const logEntryJson = JSON.stringify({ ...logEntry, action: 'backspace' }) + '\n';
+  fs.appendFile(logFilePath, logEntryJson, (err) => {
+    if (err) {
+      return res.status(500).json({ error: 'Failed to write log' });
+    }
+    res.status(200).json({ message: 'Backspace log written successfully' });
+  });
+});
+
+app.post('/log/calculate', (req, res) => {
+  const logEntry = req.body;
+  const logEntryJson = JSON.stringify({ ...logEntry, action: 'calculate' }) + '\n';
+  fs.appendFile(logFilePath, logEntryJson, (err) => {
+    if (err) {
+      return res.status(500).json({ error: 'Failed to write log' });
+    }
+    res.status(200).json({ message: 'Calculate log written successfully' });
+  });
+});
+
 app.listen(port, () => {
   // eslint-disable-next-line no-console
   console.log(`Server running on http://localhost:${port}`);

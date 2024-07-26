@@ -2,9 +2,9 @@
 import React, { useState } from 'react';
 import './App.css';
 
-const logToServer = async (logEntry) => {
+const logToServer = async (url, logEntry) => {
   try {
-    const response = await fetch('http://localhost:5000/log', {
+    const response = await fetch(url, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -19,6 +19,7 @@ const logToServer = async (logEntry) => {
   }
 };
 
+// -----------------------------------------------------------------------
 
 const App = () => {
   const [result, setResult] = useState('');
@@ -32,19 +33,39 @@ const App = () => {
       target: e.target.name,
     };
 
-    logToServer(logEntry);
+    logToServer('http://localhost:5000/log', logEntry);
   };
   
   const clear = () => {
     setResult('');
+    const logEntry = {
+      timestamp: new Date().toISOString(),
+      action: 'clear'
+    };
+
+    logToServer('http://localhost:5000/log/clear', logEntry);
   };
 
   const backspace = () => {
     setResult(result.slice(0, -1));
+    const logEntry = {
+      timestamp: new Date().toISOString(),
+      action: 'backspace'
+    };
+
+    logToServer('http://localhost:5000/log/backspace', logEntry);
   };
 
   const calculate = () => {
     setResult(eval(result).toString());
+    const logEntry = {
+      timestamp: new Date().toISOString(),
+      action: 'calculate',
+      expression: result,
+      result: eval(result).toString()
+    };
+
+    logToServer('http://localhost:5000/log/calculate', logEntry);
   };
 
   const handleChange = (e) => {
