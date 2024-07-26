@@ -1,12 +1,40 @@
+/* eslint-disable no-console */
 import React, { useState } from 'react';
 import './App.css';
+
+const logToServer = async (logEntry) => {
+  try {
+    const response = await fetch('http://localhost:5000/log', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(logEntry),
+    });
+    if (!response.ok) {
+      console.error('Failed to log entry:', response.statusText);
+    }
+  } catch (error) {
+    console.error('Error logging entry:', error);
+  }
+};
+
 
 const App = () => {
   const [result, setResult] = useState('');
 
   const handleclick = (e) => {
     setResult(result.concat(e.target.name));
+
+    const logEntry = {
+      timestamp: new Date().toISOString(),
+      action: 'button_click',
+      target: e.target.name,
+    };
+
+    logToServer(logEntry);
   };
+  
   const clear = () => {
     setResult('');
   };
