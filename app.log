@@ -1,2 +1,21 @@
-{"timestamp":"2024-07-26T09:40:36.633Z","action":"button_click","target":"9","clientInfo":{"browser":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36","os":"Win32","screenResolution":"1920x1080"}}
-{"timestamp":"2024-07-26T09:41:59.145Z","action":"button_click","target":"1","clientInfo":{"browser":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0","os":"Win32","screenResolution":"1920x1080"}}
+{"timestamp":"2024-07-26T13:04:44.836Z","action":"clear","ip":"::1"}
+{"timestamp":"2024-07-26T13:04:48.358Z","action":"button_click","target":"1","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T13:04:48.716Z","action":"button_click","target":"+","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T13:04:49.374Z","action":"button_click","target":"2","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T13:04:49.941Z","action":"calculate","expression":"1+2","result":"3","ip":"::1"}
+{"timestamp":"2024-07-26T13:04:50.988Z","action":"clear","ip":"::1"}
+{"timestamp":"2024-07-26T13:04:51.691Z","action":"button_click","target":"9","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T13:04:52.048Z","action":"button_click","target":"*","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T13:04:52.461Z","action":"button_click","target":"6","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T13:04:53.127Z","action":"button_click","target":"+","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T13:04:53.478Z","action":"button_click","target":"3","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T13:04:53.928Z","action":"calculate","expression":"9*6+3","result":"57","ip":"::1"}
+{"timestamp":"2024-07-26T13:04:55.928Z","action":"clear","ip":"::1"}
+{"timestamp":"2024-07-26T13:04:56.458Z","action":"button_click","target":"1","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T13:04:56.846Z","action":"button_click","target":"+","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T13:04:57.313Z","action":"button_click","target":"2","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
+{"timestamp":"2024-07-26T13:04:57.862Z","action":"calculate","expression":"1+2","result":"3","ip":"::1"}
+{"timestamp":"2024-07-26T13:13:23.671Z","action":"button_click","target":"8","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"}
+{"timestamp":"2024-07-26T13:13:24.889Z","action":"button_click","target":"-","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"}
+{"timestamp":"2024-07-26T13:13:25.641Z","action":"button_click","target":"6","ip":"::1","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0"}
+{"timestamp":"2024-07-26T13:13:27.317Z","action":"calculate","expression":"8-6","result":"2","ip":"::1"}
